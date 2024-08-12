@@ -1,3 +1,5 @@
+import HomeItem from "../components/HomeItem";
+
 const Home = () => {
   return (
     <main>
