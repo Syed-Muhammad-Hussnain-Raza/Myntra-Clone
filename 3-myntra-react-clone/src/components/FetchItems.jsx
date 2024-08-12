@@ -15,17 +15,29 @@ const FetchItems = () => {
 
     dispatch(fetchStatusActions.markFetchingStarted());
     fetch("http://localhost:8080/items", { signal })
-      .then((res) => res.json())
+      .then((res) => {
+        if (!res.ok) {
+          throw new Error('Network response was not ok');
+        }
+        return res.json();
+      })
       .then(({ items }) => {
         dispatch(fetchStatusActions.markFetchDone());
         dispatch(fetchStatusActions.markFetchingFinished());
         dispatch(itemsActions.addInitialItems(items[0]));
+      })
+      .catch((error) => {
+        if (error.name === "AbortError") {
+          console.log("Fetch aborted"); // Handle fetch abort
+        } else {
+          console.error("Fetch error:", error);
+        }
       });
 
     return () => {
       controller.abort();
     };
-  }, [fetchStatus]);
+  }, [fetchStatus, dispatch]);
 
   return <></>;
 };
