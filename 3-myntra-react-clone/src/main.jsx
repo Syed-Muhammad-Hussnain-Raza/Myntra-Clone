@@ -3,11 +3,11 @@ import { createRoot } from "react-dom/client";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import { Provider } from "react-redux";
 import myntraStore from "./store/index.js";
+import "./index.css";
 
 import App from "./routes/App.jsx";
 import Bag from "./routes/Bag.jsx";
 import Home from "./routes/Home.jsx";
-import "./index.css";
 
 // Defining router
 const router = createBrowserRouter([
