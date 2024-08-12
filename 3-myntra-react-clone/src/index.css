@@ -382,3 +382,9 @@ a.action_container:link {
   height: 14px;
   cursor: pointer;
 }
+
+/* CSS for Spinner */
+
+.spinner {
+  margin: 100px 0px;
+}
