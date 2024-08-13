@@ -16,38 +16,38 @@
       {
         "id": "002",
         "image": "images/2.jpg",
-        "company": "CUKOO",
-        "item_name": "Women Padded Halter Neck Swimming Dress",
-        "original_price": 2599,
-        "current_price": 1507,
-        "discount_percentage": 42,
-        "return_period": 14,
-        "delivery_date": "10 Oct 2023",
-        "rating": { "stars": 4.3, "count": 24 }
+        "company": "Laptop",
+        "item_name": "Lenovo X1 Yoga - I5 8th Generation",
+        "original_price": 80000,
+        "current_price": 72000,
+        "discount_percentage": 10,
+        "return_period": 15,
+        "delivery_date": "02 Sep 2024",
+        "rating": { "stars": 4.7, "count": 230 }
       },
       {
         "id": "003",
         "image": "images/3.jpg",
-        "company": "NUEVOSDAMAS",
-        "item_name": "Women Red & White Printed A-Line Knee-Length Skirts",
-        "original_price": 1599,
-        "current_price": 495,
-        "discount_percentage": 69,
-        "return_period": 14,
-        "delivery_date": "10 Oct 2023",
-        "rating": { "stars": 4.1, "count": 249 }
+        "company": "Salwar Kameez",
+        "item_name": "Green Embroidered Suit SK-E24-036",
+        "original_price": 8198,
+        "current_price": 5739,
+        "discount_percentage": 30,
+        "return_period": 15,
+        "delivery_date": "13 Aug 2024",
+        "rating": { "stars": 4.4, "count": 249 }
       },
       {
         "id": "004",
         "image": "images/4.jpg",
-        "company": "ADIDAS",
-        "item_name": "Indian Cricket ODI Jersey",
-        "original_price": 999,
-        "current_price": 999,
+        "company": "Matrix",
+        "item_name": "Pakistan Cricket ODI Jersey",
+        "original_price": 3500,
+        "current_price": 3500,
         "discount_percentage": 0,
         "return_period": 14,
-        "delivery_date": "10 Oct 2023",
-        "rating": { "stars": 5, "count": 10 }
+        "delivery_date": "14 Aug 2024",
+        "rating": { "stars": 4.8, "count": 1200 }
       },
       {
         "id": "005",
@@ -76,12 +76,12 @@
       {
         "id": "007",
         "image": "images/7.jpg",
-        "company": "The Indian Garage Co",
-        "item_name": "Men Slim Fit Regular Shorts",
-        "original_price": 1599,
-        "current_price": 639,
-        "discount_percentage": 60,
-        "rating": { "stars": 4.2, "count": 388 }
+        "company": "Hugo Boss",
+        "item_name": "Three-Piece Suit for Men",
+        "original_price": 350000,
+        "current_price": 262500,
+        "discount_percentage": 25,
+        "rating": { "stars": 4.4, "count": 47 }
       },
       {
         "id": "008",
@@ -94,6 +94,54 @@
         "return_period": 14,
         "delivery_date": "10 Oct 2023",
         "rating": { "stars": 4.2, "count": 5200 }
+      },
+      {
+        "id": "009",
+        "image": "images/9.jpg",
+        "company": "Apple",
+        "item_name": "AirPods Pro 2",
+        "original_price": 50000,
+        "current_price": 45000,
+        "discount_percentage": 10,
+        "return_period": 14,
+        "delivery_date": "10 Oct 2023",
+        "rating": { "stars": 4.8, "count": 1600 }
+      },
+      {
+        "id": "010",
+        "image": "images/10.jpg",
+        "company": "Samsung",
+        "item_name": "Galaxy Watch 4",
+        "original_price": 30000,
+        "current_price": 25500,
+        "discount_percentage": 15,
+        "return_period": 15,
+        "delivery_date": "10 Oct 2023",
+        "rating": { "stars": 4.4, "count": 300 }
+      },
+      {
+        "id": "011",
+        "image": "images/11.jpg",
+        "company": "L'Oréal",
+        "item_name": "Hydra Energetic Face Wash",
+        "original_price": 1795,
+        "current_price": 1600,
+        "discount_percentage": 11,
+        "return_period": 3,
+        "delivery_date": "10 Oct 2023",
+        "rating": { "stars": 4.7, "count": 10000 }
+      },
+      {
+        "id": "012",
+        "image": "images/12.jpg",
+        "company": "Sony",
+        "item_name": "PlayStation 5",
+        "original_price": 150000,
+        "current_price": 135000,
+        "discount_percentage": 10,
+        "return_period": 14,
+        "delivery_date": "10 Oct 2023",
+        "rating": { "stars": 4.3, "count": 500 }
       }
     ]
   ]
